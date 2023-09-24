@@ -1,0 +1,238 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    display:flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    padding:0px;
+    margin:0px;    
+}
+
+header, body, .title, footer {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)) no-repeat fixed, 
+                url(/img/myaiimage.png) no-repeat center center fixed;
+    background-size: cover; 
+    color: #f9faf8;
+    /*color: #ca26ff;*/
+    text-shadow:0px 0px 5px black,
+                0px 0px 20px black,
+                /*0px 0px 40px white; */
+                0px 0px 40px #fff3b0;
+}
+
+header, .title {
+    display: flex;
+    width:100%;
+    align-self: stretch;
+    align-items: center;
+    justify-content:space-around;
+    flex-flow: row wrap;
+    gap:15%;
+}
+
+.logo {
+    size: 20px;
+    font-size: 24px;
+}
+/* menu is logo img class*/
+.logopic {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+}
+
+.mycontent h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    align-self: flex-start;
+    margin-bottom: -16px;
+}
+
+.title-text {
+    color:#ca26ff;
+}
+
+.subtitle-text, li {
+    color:#e5e7eb;
+    /*color:#ca26ff;*/
+    font-size: 18px;
+}
+
+header ul {
+    display:flex;
+    gap:16px;
+}
+
+li {
+    list-style: none;
+    font-size: 24px;
+}
+
+a {
+    text-decoration: none;
+    color: #f9faf8;
+}
+a:hover {
+    color: #ca26ff;
+}
+
+.title {
+    /*height:100vh;*/
+    height: 65vh;
+    gap:32px;
+}
+
+.title-text {
+    margin-left:15%;
+    display:flex;
+    flex-flow: column wrap;
+    flex:1;
+}
+/*
+.image {
+    flex:1;
+    display:flex;
+    align-self: stretch;
+    justify-content: center;
+    align-items:center;
+    color:#1F2937;
+    margin-top: 40px;
+    margin-right: 15%;
+    min-width:300px;
+    max-height:100%;
+    overflow: hidden;
+}
+*/
+/*img {
+    width:100%;
+}
+*/
+
+.mycontent {
+    display: flex;
+    align-self: stretch;
+    align-items: center;
+    justify-content:space-between;
+    background-color: #1F2937;   
+    color: #ca26ff;
+    flex-flow: column wrap;
+}
+
+
+/*.mycontent {
+    display: flex;
+    align-self: stretch;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #1F2937;
+    color: #ca26ff;
+    flex-flow: column wrap;
+    height: 70vh; /* Set the height to fill the viewport */
+/*}
+*/
+
+.content {
+    flex-wrap: wrap;
+    padding: 64px;
+}
+
+.content h2{
+    font-size: 36px;
+    font-weight: bolder;
+    text-align: center;
+
+}
+
+/*
+.quote {
+    padding:40px 20%;
+    background: url(/img/aibike.png) no-repeat center center fixed;
+    background-size: cover;
+    font-size: 36px;
+    font-weight:lighter;
+    font-style: italic;
+    color:#1F2937;
+    text-shadow: 0 0 5px #f9faf8,
+    0 0 15px #f9faf8,
+    0 0 30px #f9faf8;
+}
+
+.quote p{
+    mix-blend-mode:luminosity;
+}
+
+.author {
+    display: flex;
+    flex-direction: row-reverse;
+    font-size: 24px;
+    font-weight: bold;
+} */
+/*
+ul.navbar-nav {
+    list-style: none; */ /* Remove the bullet */
+   /* display: inline; */ /* Display the list items inline */
+   /* float:right;
+    font-size:20px
+    
+}*/
+/*
+ul.navbar-nav li {
+    display: inline-block;*/ /* Make the list items display inline */
+/*}*/
+
+a:link {
+text-decoration: none;
+}
+
+a:visited {
+text-decoration: none;
+}
+
+a:hover {
+text-decoration: none;
+}
+
+a:active {
+text-decoration: none;
+}
+
+html,
+body {
+height: 100%;
+margin: 0;
+}
+
+body {
+display: flex;
+flex-direction: column;
+}
+
+main {
+flex: 1;
+}
+
+footer {
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    align-self: stretch;
+
+    height: 40px;
+    padding-top: 10px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+/*footer {
+    background-color: #343a40;
+    color: #ffffff;
+    padding: 10px;
+   
+}*/
+
+footer .navbar-text {
+    margin-bottom: 0;
+}
