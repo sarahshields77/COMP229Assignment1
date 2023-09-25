@@ -2,15 +2,40 @@
 <%- include ('partials/main_nav.ejs') %>
    
 
-<main class="container">
-  <div class="jumbotron">
-    <h1 class="display-4">Welcome to <%= title %> page</h1>
-    <p>Contact Us</p>
+<div class="mycontent">
+  <div class="title">
+    <div class="title-text">
+      <h1 id="contactme">Contact me</h1>
+      <p class="subtitle-text"></p>
+      <div class="contact-container">
+        <form action="action_page.php">
+      
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+      
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+      
+          <label for="country">Country</label>
+          <select id="country" name="country">
+            <option value="canada">Canada</option>
+            <option value="england">England</option>
+            <option value="usa">USA</option>
+          </select>
+      
+          <label for="subject">Subject</label>
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+      
+          <input type="submit" value="Submit">
+      
+        </form>
+      </div>
+      <p class="about-text">      
+      </p>           
     </div>
-    </main>
+  </div>
     
-    <!--bottom nav-->
-    
+    <!--bottom nav-->   
    
    
       <!--script section-->
