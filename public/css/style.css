@@ -108,6 +108,19 @@ label {
 #contactme {
     font-size: 32px;
 }
+
+.resumebutton {
+    margin-left: 250px;
+    border: 2px solid #1F2937;
+    background-color: #f9faf8;
+    border-radius: 4px;
+    padding: 10px;
+}
+
+.resumebutton:hover {
+    background-color: #ca26ff;
+    color: #1F2937;   
+}
 /*
 .image {
     flex:1;
