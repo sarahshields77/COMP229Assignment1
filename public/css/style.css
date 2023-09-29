@@ -13,11 +13,10 @@ body, header, .main, footer {
                 url(/img/myaiimage.png) no-repeat center center fixed;
     background-size: cover; 
     color: #f9faf8;
-    /*color: #ca26ff;*/
     text-shadow:0px 0px 5px black,
                 0px 0px 20px black,
                 /*0px 0px 40px white; */
-                0px 0px 40px #fff3b0;
+                0px 0px 40px #f9faf8;
 }
 
 .main {
@@ -44,7 +43,7 @@ header, .title {
     size: 20px;
     font-size: 24px;
 }
-/* menu is logo img class*/
+
 .logopic {
     border: 1px solid #ddd;
     border-radius: 4px;
@@ -121,7 +120,7 @@ label {
     background-color: #ca26ff;
     color: #1F2937;   
 }
-/*
+
 .image {
     flex:1;
     display:flex;
@@ -135,11 +134,11 @@ label {
     max-height:100%;
     overflow: hidden;
 }
-*/
-/*img {
+
+img {
     width:100%;
 }
-*/
+
 
 .about-text {
     color:#f9faf8;
@@ -187,9 +186,9 @@ label {
 .content-img:hover {
     transform:scale(1.15);
 }
-/*
+
 .quote {
-    padding:40px 20%;
+    padding:100px 20%;
     background: url(/img/aibike.png) no-repeat center center fixed;
     background-size: cover;
     font-size: 36px;
@@ -203,6 +202,13 @@ label {
 
 .quote p{
     mix-blend-mode:luminosity;
+}
+
+.contact {
+    padding:140px 20%;
+    background: url(/img/aibike.png) no-repeat center center fixed;
+    background-size: cover;
+    
 }
 
 .author {
@@ -247,9 +253,9 @@ footer {
     padding: 10px;
     align-self: stretch;
 
-    height: 40px;
-    padding-top: 10px;
-    position: absolute;
+    height: 60px;
+    /*padding-top: 10px;*/
+    /*position: absolute;*/
     bottom: 0;
     left: 0;
 }
