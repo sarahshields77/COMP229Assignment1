@@ -5,8 +5,11 @@
   <div class="main">
     <div class="title">
       <div class="title-text">
-        <h1 id="contactme">Contact me</h1>
-        <p class="subtitle-text">sarahshields77@hotmail.com</p>
+        <h1>Contact me</h1>
+        <p class="subtitle-text">*or fill out form below and I'll get back to you*</p>
+        <p class="subtitle-text"><a href="mailto:sshield9@my.centennialcollege.ca">sshield9@my.centennialcollege.ca</a></p>
+        <p class="subtitle-text"><a href="mailto:sarahshields77@hotmail.com">sarahshields77@hotmail.com</a></p>
+        <p class="subtitle-text">905.999.7905</p>
       </div>
       <div class="image">
         <p></p>
@@ -14,7 +17,7 @@
     </div>
     <div class="contact">   
       <div class="contact-container">
-          <form action="action_page.php">        
+          <form><!--action="app/views/index.ejs"> -->        
             <label for="fname">First Name</label>
             <input type="text" id="fname" name="firstname" placeholder="Your name..">        
             <label for="lname">Last Name</label>
@@ -27,7 +30,7 @@
             </select>        
             <label for="subject">Subject</label>
             <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>        
-            <input type="submit" value="Submit">        
+            <input type="button" onclick="window.location.href='app/views/index.ejs';"value="Submit" />               
           </form>               
       </div>
     </div> 
