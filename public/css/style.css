@@ -1,3 +1,10 @@
+/*===============
+filename: style.css
+student name:  Sarah Shields
+student id:  301264350
+date: October 1, 2023
+===============*/
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     display:flex;
@@ -104,11 +111,12 @@ label {
 }
 
 .resumebutton {
-    margin-left: 250px;
+    font-size: 20px;
     border: 2px solid #1F2937;
     background-color: #f9faf8;
     border-radius: 4px;
     padding: 10px;
+    width: 160px;
 }
 
 .resumebutton:hover {
